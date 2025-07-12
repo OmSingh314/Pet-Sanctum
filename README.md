@@ -13,6 +13,17 @@
 
 ## 📸 Screenshots
 
+### 🏠 Homepage
+![Homepage](screenshots/Homepage.png)
+
+### 📝 Sign Up Page
+![Sign Up](screenshots/SignUp.png)
+
+### 🆘 Rescue Request Page
+![Rescue Request](screenshots/Rescue_Request.png)
+
+### 🐾 Adopt Page
+![Adopt Page](screenshots/Adopt.png)
 
 
 ---
