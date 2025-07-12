@@ -37,30 +37,23 @@ export default function Contact() {
                 <span className="logo-contact">
                   <img src={process.env.PUBLIC_URL + "/images/home.png"} alt='sorry'/>
                 </span>
-                <span className="text-contact">IIIT Sricity,Chittoor</span>
+                <span className="text-contact">HBTU, Kanpur</span>
               </p>
               <p className="p-info-contact">
                 <span className="logo-contact">
                   <img src={process.env.PUBLIC_URL + "/images/phone.png"} alt='sorry'/>
                 </span>
-                <span className="text-contact">9534579833</span>
+                <span className="text-contact">----------</span>
               </p>
               <p className="p-info-contact">
                 <span className="logo-contact">
                   <img src={process.env.PUBLIC_URL + "/images/mail.jfif"} alt='sorry'/>
                 </span>
-                <span className="text-contact">help@smail.com</span>
+                <span className="text-contact">ombaghel2004@gmail.com</span>
               </p>
             </div>
             <h2 className="h2-contact">Join us at</h2>
             <div className="link-contact">
-              <a href="https://www.facebook.com/">
-                <img
-                  src={process.env.PUBLIC_URL + "/images/f-b.jpg"}
-                  id="fb-contact"
-                  alt='sorry'
-                />
-              </a>
               <a href="https://www.instagram.com/">
                 <img
                   src={process.env.PUBLIC_URL + "/images/ig.png"}
@@ -70,9 +63,6 @@ export default function Contact() {
               </a>
               <a href="https://www.whatsapp.com/">
                 <img src={process.env.PUBLIC_URL + "/images/w-b.jfif"} alt='sorry'/>
-              </a>
-              <a href="https://twitter.com/?lang=en">
-                <img src={process.env.PUBLIC_URL + "/images/twitter.png"} alt='sorry'/>
               </a>
             </div>
             <span className="circle-1"></span>
