@@ -1,49 +1,72 @@
-# Pet Sanctum - Web Services and Back End Development Project
+# 🐾 Pet Sanctum
 
-This project is developed by Group-9 for the course Web Services and Back End Development. The project is called Pet Sanctum and it is a pet adoption website.
-Deployed website Link: https://petsanctum.azurewebsites.net/
+**Pet Sanctum** is a full-stack web application designed to facilitate **pet adoption and rescue**. It allows users to sign up, browse adoptable pets, manage their profiles, and share blogs about pet care. Admins can manage users, pets, and blog content — making the platform both community- and mission-driven.
 
-## Team Members
-- Tejas Ajay Parse - S20200010209
-- Tanishq Awasthi - S20200010205
-- V Sai Sreekar - S20200010216
-- Nitant Kumar - S20200010148
-- Jayanth Korra - S20200010101
+---
 
-## Note
-To run this project in your local machine, you will need the following installed:
+## 🔗 Live Demo
+
+- 🌐 **Backend (Render)**: [https://pet-sanctum-3eph.onrender.com](https://pet-sanctum-3eph.onrender.com)
+- 🌐 **Frontend (Vercel)**: _Add your Vercel frontend URL here after deployment_
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## ⚙️ Tech Stack
+
+### 💻 Frontend
+- React.js
+- React Bootstrap
+- Axios
+- React Router DOM
+- Toastify
+
+### 🖥 Backend
 - Node.js
-- npm
+- Express.js
+- MongoDB Atlas (with Mongoose)
+- Cloudinary (for image uploads)
+- Multer (for handling files)
+- CORS, Morgan, Body-Parser
+- Swagger (API documentation)
 
-## How to Run the Code?
-To run the code, follow the steps below:
+### 🛠 Tools & Hosting
+- **Frontend**: Vercel  
+- **Backend**: Render  
+- **Database**: MongoDB Atlas  
+- **Storage**: Cloudinary  
+- **Version Control**: Git & GitHub
 
-1. Open the terminal in the project folder.
-2. Navigate to the server directory using the following commands:
+---
 
-cd server
-npm i
-npm start
+## 🔐 Features
 
+- ✅ User signup & login with profile picture
+- 🐶 List pets for adoption / rescue
+- 📝 Blog system for community stories
+- 📤 Image upload using Cloudinary
+- 🔒 Admin dashboard to manage users/pets/blogs
+- 📘 Interactive API docs via Swagger at `/api-docs`
 
-3. Open a new terminal in the project folder.
-4. Navigate to the client directory using the following commands:
+---
 
-cd client
-npm i
-npm start
+## 📁 Environment Variables
 
+### 🔧 Backend (`server/.env`)
 
-The app will open in your default browser.
+```env
+PORT=8000
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/petsanctum?retryWrites=true&w=majority
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_CLOUD_KEY=your_cloudinary_api_key
+CLOUDINARY_SECRET=your_cloudinary_api_secret
+```
+### 🔧 Frontend (`client/.env`)
 
-## API Documentation
-Use the following link to access the Swagger documentation of the API once the server starts-
-http://localhost:4000/api-docs/
-
-## Web API Link
-https://petsanctumapi.azurewebsites.net/
-
-Repository Links:
-
-https://github.com/TejasParse/pet-sanctum-server
-https://github.com/TejasParse/pet-sanctum-client
+```env
+REACT_APP_SERVER_LINK=http://localhost:8000
